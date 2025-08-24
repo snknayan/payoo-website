@@ -58,3 +58,8 @@ document
     document.getElementById("cash-out-parent").style.display = "block";
     document.getElementById("add-money-parent").style.display = "none";
   });
+
+/* Logout related functionality */
+document.getElementById("logout-button").addEventListener("click", function () {
+  window.location.href = "./index.html";
+});
